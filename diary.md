@@ -11,3 +11,4 @@ This is a log of all work done on the project. Update and commit when you have w
 | 06/10/23 | 2     | Ryan Moore              | Got Billboard data into R dataframe format using a Python package called billboard.py      |
 | 07/10/23 | 1.5   | Ryan Moore              | Started working on Spotify API                                                             |
 | 10/10/23 | ?     | Ryan Moore, Zheyu Li    | First meeting with Zheyu to get him up to date on the project. Will work on RYM dataset    |
+| 10/10/23 | 2     | Will Durkin             | Working on Genius API                                                                      |
