@@ -14,4 +14,6 @@ This is a log of all work done on the project. Update and commit when you have w
 | 10/10/23 | 2     | Ryan Moore, Zheyu Li    | First meeting with Zheyu to get him up to date on the project. Will work on RYM dataset    |
 | 10/10/23 | 2     | Will Durkin             | Working on Genius API                                                                      |
 | 10/10/23 | 4     | Zheyu Li                | Obtained RYM dataset and converted it into a tabular format within an R DataFrame          |
+| 10/10/23 | 1     | Ryan Moore              | Added album-sales.ibynb for downloading historical album sales data                        |
 | 11/10/23 | 2     | Zheyu Li                | Update the code and try to find relationship bewteen the data and plot it                  |
+| 11/10/23 | 2.5   | Ryan Moore              | Created notebook to interface with Spotify API                                             |
