@@ -22,3 +22,4 @@ This is a log of all work done on the project. Update and commit when you have w
 | 13/10/23 | 2     | Will Durkin             | Finding ways to approach the evolution of most popular genres in various decades           |
 | 13/10/23 | 5     | Zheyu Li                | Scraping  5000 datas in RYM (125 pages)                                                    |
 | 14/10/23 | 2     | Will Durkin             | Combining Genius and Billboard datasets                                                    |
+| 14/10/23 | 4     | Zheyu Li                | Ploting some graphs                                                                           |
