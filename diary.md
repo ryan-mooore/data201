@@ -19,7 +19,10 @@ This is a log of all work done on the project. Update and commit when you have w
 | 11/10/23 | 2.5   | Ryan Moore              | Created notebook to interface with Spotify API                                             |
 | 11/10/23 | 2     | Will Durkin             | Creating Genius data frame                                                                 |
 | 12/10/23 | 3     | Will Durkin             | Debugging and research - lyrics are unavailable from Genius API as of 2021                 |
+| 12/10/23 | 3     | Zheyu Li                | Modify the code for scrape all the data on the RYM website.                                |
 | 13/10/23 | 2     | Will Durkin             | Finding ways to approach the evolution of most popular genres in various decades           |
 | 13/10/23 | 5     | Zheyu Li                | Scraping  5000 datas in RYM (125 pages)                                                    |
 | 14/10/23 | 2     | Will Durkin             | Combining Genius and Billboard datasets                                                    |
-| 14/10/23 | 4     | Zheyu Li                | Ploting some graphs                                                                           |
+| 14/10/23 | 2     | Zheyu Li                | Thinking about the relationship between each data and ploting a graph that matches it.     |
+| 14/10/23 | 4     | Zheyu Li                | Ploting some graphs                                                                        |
+| 15/10/23 | 2     | Zheyu Li                | Doing ppt                                                                                  |
