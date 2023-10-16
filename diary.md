@@ -22,12 +22,13 @@ This is a log of all work done on the project. Update and commit when you have w
 | 12/10/23 | 3     | Zheyu Li                          | Modify the code for scrape all the data on the RYM website.                                |
 | 13/10/23 | 2     | Will Durkin                       | Finding ways to approach the evolution of most popular genres in various decades           |
 | 13/10/23 | 5     | Zheyu Li                          | Scraping 5000 datas in RYM (125 pages)                                                     |
+| 14/10/23 | 2.5   | Ryan Moore                        | Relating top 20 albums to Spotify API data                                                 |
 | 14/10/23 | 2     | Will Durkin                       | Combining Genius and Billboard datasets                                                    |
 | 14/10/23 | 4     | Zheyu Li                          | Ploting some graphs                                                                        |
-| 15/10/23 | 5     | Will Durkin                       | Working on Red Hot Chili Peppers music                                                     |
 | 14/10/23 | 2     | Zheyu Li                          | Thinking about the relationship between each data and ploting a graph that matches it.     |
 | 14/10/23 | 4     | Zheyu Li                          | Ploting some graphs                                                                        |
 | 15/10/23 | 2     | Zheyu Li                          | Doing ppt                                                                                  |
-| 15/10/23 | 2.5   | Ryan Moore                        | Relating top 20 albums to Spotify API data                                                 |
+| 15/10/23 | 5     | Will Durkin                       | Working on Red Hot Chili Peppers music                                                     |
 | 16/10/23 | 1     | Ryan Moore                        | Function for scraping individual rating of a given album using RYM                         |
 | 16/11/23 | 4     | Ryan Moore, Will Durkin, Zheyu Li | Working on presentation                                                                    |
+| 16/11/23 | 2.5   | Ryan Moore                        | Project.ipynb cleanup, getting ready for final submission                                  |
