@@ -32,4 +32,5 @@ This is a log of all work done on the project. Update and commit when you have w
 | 16/10/23 | 1     | Ryan Moore                        | Function for scraping individual rating of a given album using RYM                         |
 | 16/10/23 | 4     | Ryan Moore, Will Durkin, Zheyu Li | Working on presentation                                                                    |
 | 16/10/23 | 2.5   | Ryan Moore                        | Project.ipynb cleanup, getting ready for final submission                                  |
+| 22/10/23 | 4     | Zheyu Li                          | Writing report,doing data cleaning and collection about RYM part and analyzing graphs      |
 | 26/10/23 | 6     | Will Durkin                       | Report writing / conclusion / notebook update                                              |
