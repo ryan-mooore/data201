@@ -34,3 +34,4 @@ This is a log of all work done on the project. Update and commit when you have w
 | 16/10/23 | 2.5   | Ryan Moore                        | Project.ipynb cleanup, getting ready for final submission                                  |
 | 22/10/23 | 4     | Zheyu Li                          | Writing report,doing data cleaning and collection about RYM part and analyzing graphs      |
 | 26/10/23 | 6     | Will Durkin                       | Report writing / conclusion / notebook update                                              |
+| 27/10/23 | 6     | Will Durkin                       | Data compiling, converting data to rds files and debugging                                 |
