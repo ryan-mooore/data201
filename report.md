@@ -18,7 +18,7 @@ more easily answer.
 ## Project Management
 
 For ease of collaboration, we used Git and GitHub version control software. This
-made it easy to code together during project development.
+made it much easier to code together and communicate ideas during project development.
 
 ## Project Structure
 
@@ -30,6 +30,8 @@ made it easy to code together during project development.
 
 - `project.ipynb` is the master copy of the notebook, containing functions,
   graphs, model, etc.
+
+- `data` directory contains the RData files.
 
 ## Data Sources
 
@@ -62,7 +64,7 @@ such as acousticness, danceability, loudness and energy.
 
 From the Spotify API:
 
-> Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of
+> "Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of
 > intensity and activity. Typically, energetic tracks feel fast, loud, and noisy.
 > Perceptual features contributing to this attribute include dynamic range,
 > perceived loudness, timbre, onset rate, and general entropy.”
@@ -98,8 +100,7 @@ subsequent analyses. Multiple genres for a single album are fetched and merged
 into a single comma-separated string for streamlined representation. Lastly,
 descriptors are cleaned to replace newline characters and remove extraneous
 spaces. These meticulous steps are taken to ensure that the extracted data is
-accurate, consistent, and primed for further analysis. Data is cleaned as
-shown:
+accurate, consistent, and primed for further analysis. Data is cleaned as shown:
 
 ![](images/cleaned.png)
 
@@ -154,7 +155,10 @@ website provided a very scraping-friendly interface, and the subpages were
 organized in a logical way. There was also no rate-limiting, which made scraping
 this website very convenient and easy. All the charts were stored in a <table />
 element at the top of the page, which would easily converted into a dataframe
-just using the html_table() function from rvest. Once this was done, all that needed to be done was selecting the relevant columns we needed and converting some types from character to numeric. This was the easiest data source to retreive and clean, despite still requiring scraping.
+just using the html_table() function from rvest. Once this was done, all that
+needed to be done was selecting the relevant columns we needed and converting
+some types from character to numeric. This was the easiest data source to
+retreive and clean, despite still requiring scraping.
 
 ## Wrangling and Results
 
@@ -182,10 +186,10 @@ between 'Energy' and an album's popularity.
 
 ![](images/rhcpenergy.png)
 
-Over 75% of the RHCP’ album tracks were released **after** 1990, yet all five of the
-RHCP’ top 5 most energetic tracks were released **before** 1990. This implies that
-the energy of their music may have changed over time, so we investigated this on
-an album basis.
+Over 75% of the RHCP’ album tracks were released **after** 1990, yet all five of
+the RHCP’ top 5 most energetic tracks were released **before** 1990. This
+implies that the energy of their music may have changed over time, so we
+investigated this on an album basis.
 
 ![](images/rhcp.png)
 
@@ -267,8 +271,13 @@ advancements in music recording, and the emergence of diverse genres.
 
 ### What makes an album critically acclaimed?
 
-To answer this question, we also used the rateyourmusic.com data set. The data set contains 5-20 descriptor words for each album on its site, separate from genre. We can parse these descriptor words and see which descriptors show up most commonly in the top 5000 most highly-rated albums, using text-mining techniques in R - strucuring the data into a
-term-document matrix, sorted by word frequency, and then visualising the data as a word cloud using `RWordCloud`.
+To answer this question, we also used the rateyourmusic.com data set. The data
+set contains 5-20 descriptor words for each album on its site, separate from
+genre. We can parse these descriptor words and see which descriptors show up
+most commonly in the top 5000 most highly-rated albums, using text-mining
+techniques in R - strucuring the data into a term-document matrix, sorted by
+word frequency, and then visualising the data as a word cloud using
+`RWordCloud`.
 
 ![](images/wordcloud.png)
 
@@ -284,28 +293,6 @@ sources such as Rate Your Music, Album Sales and the Spotify API, we found a
 number of factors that contribute towards a successful album.
 
 ### What makes an album sell?
-
-### What era has the most critically acclaimed albums?
-
-### What makes an album critically acclaimed?
-
-We found that an indicator of a critically acclaimed album is its rating on Rate
-Your Music. Albums with an average rating of 3.73 tend to be considered highly
-successful on the platform. This suggests that favourable reviews and ratings
-play a significant role in an album's ‘success’.
-
-The critical acclaim of albums varied heavily throughout the decades. Albums
-from the 1970s and 1990s stood out with record-high ratings. The 1970s, often
-referred to as the "Golden Age of Rock," witnessed the strongest period of
-musical innovation, while the 1990s marked the rise of alternative and grunge
-music, both contributing to the high ratings and critical acclaim of albums from
-these times.
-
-The word cloud analysis of album descriptors highlighted that terms like
-'melodic,' 'energetic,' 'passionate,' 'rhythmic,' 'melancholic,' 'instrumental,'
-and 'atmospheric' are common descriptors of highly-rated albums. This indicates
-that the musical characteristics and emotional depth of an album play a crucial
-role in its critical acclaim.
 
 Analysing the energy levels of high-selling albums revealed that most of these
 albums have tracks with moderate-high energy levels, typically falling between
@@ -326,6 +313,25 @@ like Rate Your Music can explain a significant portion of the variation in album
 sales. Higher album ratings are associated with increased sales, highlighting
 the influence of critical acclaim on commercial success.
 
+### What era has the most critically acclaimed albums?
+
+The critical acclaim of albums varied heavily throughout the decades. Albums
+from the 1970s and 1990s stood out with record-high ratings. The 1970s, often
+referred to as the "Golden Age of Rock," witnessed the strongest period of
+musical innovation, while the 1990s marked the rise of alternative and grunge
+music, both contributing to the high ratings and critical acclaim of albums from
+these times.
+
+### What makes an album critically acclaimed?
+
+The word cloud analysis of album descriptors highlighted that terms like
+'melodic,' 'energetic,' 'passionate,' 'rhythmic,' 'melancholic,' 'instrumental,'
+and 'atmospheric' are common descriptors of highly-rated albums. This indicates
+that the musical characteristics and emotional depth of an album play a crucial
+role in its critical acclaim.
+
+### In Summary: What makes an album succesful?
+
 We can conclude that a successful album can be achieved through the fusion of
 receiving high critical acclaim, being released in an era marked by musical
 experimentation, containing specific musical attributes such as melodic and
@@ -337,13 +343,22 @@ use this knowledge to guide their creative and marketing efforts and create
 albums that stand the test of time.
 
 Although we have achieved a great depth of analysis and made some interesting
-conclusions, we failed in generalising our results for the music industry. We
-selected a handful of convenient (potentially biased) websites to scrape data
-from and used the results of a case study developed around one band to make
-comments about the music industry as a whole. If we were to continue this
-research, we would investigate the websites’ reputability and use data from many
-different sources. We would also take random samples of industry data before
-making generalisations, as opposed to selecting one band and assuming the
-results of that band will apply industry-wide. Although professionals can use
-this report to guide their efforts, it must be used with caution and in
-conjunction with their own research from reputable sources.
+conclusions, we cannot confidently say we succeeded in generalising our results
+for the music industry. We selected a handful of convenient (potentially biased)
+websites to scrape data from and used the results of a case study developed
+around one band to make comments about the music industry as a whole.
+
+Additionally, we looked at very few predictor variables (e.g. only using
+'Energy' value from Spotify to define the success of an album) when in fact the
+success of an album is due to many, many different predictors, and cannot be
+explained with a simple relationship. No doubt luck also plays a large part in
+an album's success.
+
+We are also likely to have conflated correlation and causation in several parts
+of our analysis. If we were to continue this research, we would investigate the
+websites’ reputability and use data from many different sources. We would also
+take random samples of industry data before making generalisations, as opposed
+to selecting one band and assuming the results of that band will apply
+industry-wide. Although professionals can use this report to guide their
+efforts, it must be used with caution and in conjunction with their own research
+from reputable sources.
