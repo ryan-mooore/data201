@@ -1,6 +1,6 @@
 # Project diary
 
-This is a log of all work done on the project. Update and commit when you have worked on the project.
+This is a log of all work done on the project. Note: see the commit history for a more detailed and rigorous overview of progress on the project!
 
 | Date     | Hours | People                            | Comments                                                                                   |
 | -------- | ----- | --------------------------------- | ------------------------------------------------------------------------------------------ |
@@ -35,3 +35,7 @@ This is a log of all work done on the project. Update and commit when you have w
 | 22/10/23 | 4     | Zheyu Li                          | Writing report,doing data cleaning and collection about RYM part and analyzing graphs      |
 | 26/10/23 | 6     | Will Durkin                       | Report writing / conclusion / notebook update                                              |
 | 27/10/23 | 6     | Will Durkin                       | Data compiling, converting data to rds files and debugging                                 |
+| 27/10/23 | 1.5   | Ryan Moore                        | Try to fix some remaining code issues                                                      |
+| 27/10/23 | 1     | Ryan Moore                        | Convert report to .md, reorder notebook slightly                                           |
+| 27/10/23 | 3     | Ryan Moore                        | Rewrite report, add comments to notebook, fix graph titles                                 |
+| 27/10/23 | 0.5   | Ryan Moore                        | Finalize repo                                                                              |
