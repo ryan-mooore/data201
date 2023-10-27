@@ -1,6 +1,6 @@
 # Project diary
 
-This is a log of all work done on the project. Update and commit when you have worked on the project.
+This is a log of all work done on the project. Note: see the commit history for a more detailed and rigorous overview of progress on the project!
 
 | Date     | Hours | People                            | Comments                                                                                   |
 | -------- | ----- | --------------------------------- | ------------------------------------------------------------------------------------------ |
